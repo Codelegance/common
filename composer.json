@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/common",
+    "name": "codelegance/doctrine-common",
     "type": "library",
     "description": "Common Library for Doctrine projects",
     "keywords": ["collections", "spl", "eventmanager", "annotations", "persistence"],
@@ -32,6 +32,9 @@
         "psr-4": {
             "Doctrine\\Tests\\": "tests/Doctrine/Tests"
         }
+    },
+    "replace": {
+        "doctrine/common": "^2.8"
     },
     "extra": {
         "branch-alias": {
